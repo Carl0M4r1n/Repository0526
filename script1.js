@@ -1,13 +1,11 @@
 //validar nombre, debe contener solo letras y no ser vacio
 //validar correo: Debe tener solo un @ y terminar en .cl
 
-function validar(nombre,email){
+function validar(){
     nombre = vNombre,
     vNombre = LongitudNombre,
     email = vEmail
     vEmail = ValidacionEmail
-
-
     if(vNombre == "exito")
         if (vEmail == "exito")
             push[nombre , email]
@@ -20,7 +18,7 @@ function validar(nombre,email){
 function LongitudNombre(){
     if (vNombre < 1)
         return "error"
-        console.log("Nombre nesita letras")
+        console.log("Nombre no puede estar vacio")
     elif (vNombre >= 1)
         return "exito"
 }
